@@ -1,0 +1,44 @@
+[
+	{
+		"type": "Food",
+		"title": "pasta",
+		"description": "Pasta is a staple in Italian cuisine and comes in various shapes and sizes. From spaghetti and linguine to penne and lasagna, pasta is often served with a variety of delicious sauces like Bolognese (meat-based), marinara (tomato-based), carbonara (bacon and egg-based), and pesto (basil and pine nut-based).",
+		"imgSrc": "../images/pasta.png"
+	},
+	{
+		"type": "Food",
+		"title": "pizza",
+		"description": "Italian pizza has become a global favorite. It typically features a thin and crispy crust topped with tomato sauce, mozzarella cheese, and an array of toppings such as mushrooms, olives, prosciutto, and fresh basil. Popular variations include Margherita, Napoletana, and Quattro Formaggi.",
+		"imgSrc": "../images/pizza1.png"
+	},
+	{
+		"type": "Food",
+		"title": "risotto",
+		"description": "Risotto is a creamy and flavorful rice dish cooked slowly with ingredients like onions, broth, and Parmesan cheese. Varieties include classic risotto alla Milanese, which incorporates saffron, as well as variations with mushrooms, seafood, or vegetables.",
+		"imgSrc": "../images/risotto.png"
+	},
+	{
+		"type": "Food",
+		"title": "antipasti",
+		"description": "Antipasti are appetizers that kickstart an Italian meal. They often consist of a selection of cured meats, cheeses, marinated vegetables, olives, bruschetta (toasted bread with toppings), and other small bites. Antipasti allow diners to enjoy a variety of flavors and textures before the main course.",
+		"imgSrc": "../images/antipasti.png"
+	},
+	{
+		"type": "Food",
+		"title": "seafood",
+		"description": "Italy's extensive coastline contributes to its excellent seafood dishes. From the Mediterranean Sea to the Adriatic Sea, Italian cuisine features a wide array of seafood delicacies, including grilled calamari, seafood risotto, pasta with clams, and the popular dish, spaghetti alle vongole (spaghetti with clams).",
+		"imgSrc": "../images/seafood.jpg"
+	},
+	{
+		"type": "Food",
+		"title": "gelato",
+		"description": "Gelato is the Italian version of ice cream. It is churned at a slower pace, resulting in a denser and silkier texture compared to traditional ice cream. Gelato flavors range from classic choices like vanilla, chocolate, and strawberry to more unique options like pistachio, hazelnut, and tiramisu.",
+		"imgSrc": "../images/gelato.png"
+	},
+	{
+		"type": "Drink",
+		"title": "espresso and tiramisu",
+		"description": "Italians are known for their love of coffee, and espresso is the go-to choice for many. After a meal, it is common to enjoy a small, strong cup of espresso. Another beloved Italian dessert is tiramisu, made with layers of espresso-soaked ladyfingers, mascarpone cheese, and cocoa. It's a rich and indulgent treat.",
+		"imgSrc": "../images/espresso.jpg"
+	}
+]

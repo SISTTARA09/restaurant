@@ -1,0 +1,60 @@
+@use '../global' as *;
+@use '../helpers' as *;
+
+section.arabian {
+  .container {
+    @include flex(column);
+    .foodContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      padding-block: $xl;
+      gap: $xl;
+      .box {
+        position: relative;
+        box-shadow: 0 0 1px $lalt;
+        transition: .2s linear ;
+        &:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 0 1px $alt;
+        }
+        .image {
+          img {
+            width: 100%;
+            aspect-ratio: 1 / .6;
+            object-fit: cover;
+          }
+        }
+        .info {
+          padding: $s;
+          h3 {
+            @include triangle-style(left, -5px, $main);
+            position: relative;
+            color: $main;
+            padding: $m;
+            width: fit-content;
+            transition: .2s linear;
+            &::before {
+              transition: .2s linear;
+            }
+            &:hover{
+              & {
+                color: white;
+              }
+              &::before  {
+                left: calc(100% - 10px);
+                border-left-color: transparent;
+                border-right-color: white;
+              }
+            }
+          }
+          p {
+            color: $pColor;
+            text-transform: capitalize;
+            text-align: justify;
+            padding:$m $s;
+            line-height: 1.2;
+          }
+      }
+    }
+  }
+}}

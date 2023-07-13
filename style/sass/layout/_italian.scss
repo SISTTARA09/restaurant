@@ -1,0 +1,42 @@
+@use '../global' as *;
+@use '../helpers' as *;
+
+section.italian {
+  .container {
+    @include flex(column);
+
+    .foodContainer {
+      padding-block: $l;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      .box {
+        box-shadow: 0 0 1px  $lalt;
+        .image {
+          img {
+            width: 100%;
+            aspect-ratio: 1 / .6 ;
+            object-fit: cover;
+          }
+        }
+        .info {
+          padding: $m;
+          h3 {
+            position: relative;
+            color: $main;
+            @include triangle-style(left, 0px, $main);
+            padding-inline: $l;
+          }
+          p {
+            color: $pColor;
+            padding-block: $m;
+            text-transform: capitalize;
+            &::before {
+              content: '           ';
+            }
+          }
+        }
+      }
+    }
+  }
+}

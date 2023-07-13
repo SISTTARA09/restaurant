@@ -1,0 +1,80 @@
+@use '../global' as *;
+@use '../helpers' as *;
+
+section.japanese {
+  .container {
+    @include flex(column);
+    .foodContainer {
+      @include flex(row);
+      padding-block: $xl;
+      gap: $xl;
+      .box {
+        position: relative;
+        flex: 1 0 30%;
+        min-width: 300px;
+        box-shadow: 0 0 1px $lalt;
+        &::before {
+          content: '';
+          position: absolute;
+          top: -16px;
+          right: 0;
+          width: 25px;
+          height: 16px;
+          background: white;
+        }
+        &::after {
+          content: '';
+          position: absolute;
+          top: -13px;
+          right: 7px;
+          width: 10px;
+          height: 10px;
+          background: $red;
+          border-radius: 50%;
+        }
+        .image {
+          img {
+            width: 100%;
+            aspect-ratio: 1 / .6;
+            object-fit: cover;
+          }
+        }
+        .info {
+          padding: $s;
+          h3 {
+            position: relative;
+            color: $main;
+            padding: $m;
+            width: fit-content;
+            transition: .2s linear;
+            &::before {
+              content: '';
+              position: absolute;
+              background-color: $main;
+              height: 80%;
+              width: 3px;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              z-index: -1;
+              transition: .2s linear;
+            }
+            &:hover {
+              color: white;
+            }
+            &:hover::before {
+              left: 100%;
+              background-color: white;
+            }
+          }
+          p {
+            color: $pColor;
+            text-transform: capitalize;
+            text-align: justify;
+            padding:$m $s;
+          }
+        }
+      }
+    }
+  }
+}

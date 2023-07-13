@@ -1,0 +1,27 @@
+@use '../global' as *;
+@use '../helpers' as *;
+
+section.landing-page {
+  .container {
+    background-color: rebeccapurple;
+    height: 500px;
+    @media ($mediumDevices) {
+      height: 400px;
+    }
+    @media ($smallDevices) {
+      height: 300px;
+    }
+    .images-slider {
+      height: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      overflow: hidden;
+      img {
+        max-height: 100%;
+        flex: 1 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

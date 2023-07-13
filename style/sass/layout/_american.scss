@@ -1,0 +1,52 @@
+@use '../global' as *;
+@use '../helpers' as *;
+
+section.american {
+  .container {
+    @include flex(column);
+    .foodContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      padding-block: $xl;
+      gap: $xl;
+      .box {
+        position: relative;
+        overflow: hidden;
+        .image {
+          img {
+            width: 100%;
+            aspect-ratio: 1 / .6;
+            filter: grayscale(.4);
+            transition: .2s linear;
+          }
+        }
+        .info {
+          bottom: 5px;
+          left: 5px;
+          color: white;
+          width: 100%;
+          transition: .3s linear;
+          position: absolute;
+          h3 {
+            color: $main;
+            transition: .2s linear;
+          }
+          p {
+            color: white;
+            text-shadow: 0 0 1px white;
+            background-color: rgba(0, 0, 0, 0.338);
+            transition: .3s linear;
+          }
+        }
+        &:hover {
+          .info {
+            bottom: -150px;
+          }
+          img {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}

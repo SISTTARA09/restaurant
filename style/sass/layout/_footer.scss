@@ -1,0 +1,87 @@
+@use "../global" as *;
+@use "../helpers" as *;
+
+footer {
+  .container {
+    @include flex(row);
+    background-color: $main;
+    >* {
+      flex: 1 0 30%;
+      min-width: 250px;
+      h3 {
+        color: white;
+        padding: $m ;
+      }
+    }
+    nav {
+      @include flex(column);
+      a {
+        position: relative;
+        padding: $s;
+        color: $black;
+        font-weight: $bold;
+        transition: .2s linear;
+        padding-inline-start: $xl;
+        &:hover {
+          color: white;
+          transform: translateX(15px);
+        }
+        &::before {
+          content: '\f101';
+          position:absolute;
+          left: $m;
+          top: 50%;
+          transform: translateY(-50%);
+          font-family: 'font awesome 6 free'
+        }
+      }
+    }
+    form {
+      @include flex(column);
+      gap: $m;
+      input {
+        color: $black;
+        text-transform: capitalize;
+        padding: $m;
+        border-radius: $s;
+      }
+      [placeholder = 'isue'] {
+        padding-block-end: 50px;
+      }
+      [type = submit] {
+        font-weight: $bold;
+        color: $black;
+        width: fit-content;
+        align-self: flex-end;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .followUs {
+      justify-content: space-between;
+      .icons {
+        height: 100%;
+        @include flex(row);
+        padding: $xl;
+        gap: $m;
+        font-size: $xl;
+        .fa-facebook {
+          color: $dblue;
+        }
+        .fa-instagram {
+          color: $pink;
+        }
+        .fa-twitter {
+          color: $blue;
+        }
+        .fa-youtube {
+          color: $red;
+        }
+        i:hover {
+          transition: .2s linear;
+          color: white;
+        }
+      }
+    }
+  }
+}

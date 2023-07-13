@@ -1,0 +1,30 @@
+@use '../global' as *;
+@use '../helpers' as *;
+
+article.foundation {
+  padding-block: $l;
+  .container {
+    @include flex(column);
+    @extend %f-center;
+    gap: $l;
+
+    .description {
+      color: $pColor;
+      p {
+        position: relative;
+        padding: $l $m;
+        line-height: 1.7;
+        font-size: clamp(14px, 16px , 20px);
+        &::before {
+          content: '\f02e';
+          position: absolute;
+          left: 0;
+          top: 10px;
+          font-size: $l;
+          color: $main;
+          font-family: "Font Awesome 6 Free";
+        }
+      }
+    }
+  }
+}

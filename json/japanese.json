@@ -1,0 +1,52 @@
+[
+  {
+    "title": "rice",
+    "description": "Rice is a staple in Japanese cuisine and forms the foundation of many meals. It is served alongside various dishes or used as a base for sushi, rice bowls, and other rice-centered dishes.",
+    "imgSrc": "../images/rice.png"
+  },
+  {
+    "title": "Tempura",
+    "description": "Tempura is a dish consisting of lightly battered and deep-fried seafood, vegetables, or other ingredients. The batter is crispy, and the result is a delicious combination of flavors and textures.",
+    "imgSrc": "../images/tempura.png"
+  },
+  {
+    "title": "Ramen",
+    "description": "Ramen is a popular noodle dish with Chinese origins that has become a beloved part of Japanese cuisine. It features wheat noodles served in a flavorful broth, often accompanied by toppings such as sliced pork, bamboo shoots, seaweed, and a soft-boiled egg.",
+    "imgSrc": "../images/ramen.png"
+  },
+  {
+    "title": "Udon",
+    "description": " Udon noodles are thick, wheat-based noodles typically served in a hot or cold broth. The broth can be soy-based, miso-based, or made from a combination of ingredients, and it is often garnished with green onions, tempura, or sliced meat.",
+    "imgSrc": "../images/udon.png"
+  },
+  {
+    "title": "Yakitori",
+    "description": "Yakitori refers to skewered and grilled chicken, usually marinated in a savory sauce. These bite-sized chicken skewers are popular street food in Japan and are often enjoyed alongside drinks in an izakaya (Japanese pub) setting.",
+    "imgSrc": "../images/yakitori.png"
+  },
+  {
+    "title": "Sukiyaki",
+    "description": "Sukiyaki is a hot pot dish that typically consists of thinly sliced beef, tofu, vegetables, and noodles cooked in a sweet and savory soy-based broth. It is often enjoyed communally at the table, with each person cooking their ingredients in the simmering broth.",
+    "imgSrc": "../images/Sukiyaki.png"
+  },
+  {
+    "title": "Miso Soup",
+    "description": "Miso soup is a staple of Japanese meals. It is made from fermented soybean paste (miso) combined with dashi (a broth made from dried fish and seaweed), and it is often served with tofu, seaweed, green onions, and other ingredients.",
+    "imgSrc": "../images/Miso-soup.png"
+  },
+  {
+    "title": "Matcha",
+    "description": "Matcha is powdered green tea and plays a significant role in Japanese tea ceremonies. It is also used to flavor various desserts, such as matcha-flavored ice cream, mochi, and cakes.",
+    "imgSrc": "../images/matcha.png"
+  },
+  {
+    "title": "Kaiseki",
+    "description": "Kaiseki is a traditional multi-course Japanese dining experience that showcases the seasonality and artistry of Japanese cuisine. It consists of a meticulously curated sequence of small, beautifully presented dishes that harmonize flavors, textures, and aesthetics.",
+    "imgSrc": "../images/kaiseki.png"
+  },
+  {
+    "title": "Sushi and Sashimi",
+    "description": "Sushi is perhaps one of the most iconic Japanese dishes. It consists of vinegared rice combined with various ingredients, such as raw or cooked seafood, vegetables, or egg. Sashimi, on the other hand, refers to thinly sliced raw seafood served without rice.",
+    "imgSrc": "../images/sushi.png"
+  }
+]

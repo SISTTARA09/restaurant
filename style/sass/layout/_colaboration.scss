@@ -1,0 +1,64 @@
+@use "../global" as *;
+@use "../helpers" as *;
+
+section.colaboration {
+	.container {
+		@include flex(row);
+		flex-flow: nowrap;
+    gap: $xl;
+    .description {
+      @include flex(column);
+      position: relative;
+      flex: 1 0 40%;
+      justify-content: space-around;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20px;
+        height: 100px;
+        width: $s;
+        background-color: $alt;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -20px;
+        height: 100px;
+        width: $s;
+        background-color: $alt;
+      }
+      p {
+        position: relative;
+        padding-block: $xl;
+        color: $pColor;
+        line-height: 1.5;
+        text-transform: capitalize;
+        text-align: justify;
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 100px;
+          height: $s;
+          background-color: $alt;
+        }
+        img {
+          max-width: 300px;
+          object-fit: cover;
+          float: left;
+          margin-block-end: $l;
+          margin-inline-end: $l;
+          @media ($smallDevices) {
+            display: none;
+          }
+        }
+      }
+    }
+	}
+}
