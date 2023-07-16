@@ -2,7 +2,6 @@
 @use "../global" as *;
 
 header {
-  // background-color: green;
   padding: $s;
   .container {
     @include flex(row);
