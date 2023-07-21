@@ -1,5 +1,5 @@
 async function createBoxes(country) {
-  let mainData = await fetch(`../json/${country}.json`)
+  let mainData = await fetch(`./json/${country}.json`)
   let foodContainer = document.querySelector(`.${country} .foodContainer`)
   try {
     let data = await mainData.json();
