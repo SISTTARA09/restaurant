@@ -2,51 +2,51 @@
   {
     "title": "Burgers",
     "description": "Burgers are an iconic part of American cuisine. From classic cheeseburgers to gourmet creations, Americans take pride in their juicy beef patties or vegetarian alternatives, topped with an array of condiments, cheese, and vegetables.",
-    "imgSrc": "../images/burgers.png"
+    "imgSrc": "./images/burgers.png"
   },
   {
     "title": "Barbecue",
     "description": "Barbecue holds a special place in American food culture. Regional styles such as Kansas City, Texas, and Carolina barbecue showcase a variety of slow-cooked meats, often smoked or grilled, and accompanied by tangy barbecue sauces.",
-    "imgSrc": "../images/barbecue.png"
+    "imgSrc": "./images/barbecue.png"
   },
   {
     "title": "Fried Chicken",
     "description": "Crispy, golden fried chicken is a beloved comfort food in American cuisine. Whether it's classic Southern-style fried chicken or spicy buffalo wings, this dish holds a special place in American hearts and taste buds.",
-    "imgSrc": "../images/friedchicken.png"
+    "imgSrc": "./images/friedchicken.png"
   },
   {
     "title": "Macaroni and Cheese",
     "description": "Macaroni and Cheese is a quintessential American comfort food. Creamy macaroni pasta baked with a cheesy sauce has become a staple at family gatherings, picnics, and casual dining.",
-    "imgSrc": "../images/macaronicheese.png"
+    "imgSrc": "./images/macaronicheese.png"
   },
   {
     "title": "Pizza",
     "description": "While pizza has its origins in Italy, it has become a staple in American food culture. Americans have embraced various styles, from New York-style thin crust to Chicago deep-dish, often loaded with a variety of toppings.",
-    "imgSrc": "../images/pizza.png"
+    "imgSrc": "./images/pizza.png"
   },
   {
     "title": "Barbecue Ribs",
     "description": "Tender, succulent ribs glazed with barbecue sauce are a favorite indulgence in American cuisine. Whether pork or beef, ribs are slow-cooked to perfection, resulting in meat that falls off the bone.",
-    "imgSrc": "../images/barbecueribs.png"
+    "imgSrc": "./images/barbecueribs.png"
   },
   {
     "title": "Hot Dogs",
     "description": "Hot dogs are a classic American street food, often enjoyed at ballparks and backyard barbecues. Served in a soft bun and topped with various condiments like ketchup, mustard, onions, and relish, they are a quintessential taste of America.",
-    "imgSrc": "../images/hotdogs.png"
+    "imgSrc": "./images/hotdogs.png"
   },
   {
     "title": "Pancakes and Waffles",
     "description": "Pancakes and waffles are beloved breakfast staples in American cuisine. Whether fluffy pancakes drizzled with maple syrup or crispy waffles topped with fresh fruit and whipped cream, these indulgent breakfast dishes have become an integral part of American morning rituals.",
-    "imgSrc": "../images/pancakeswaffles.png"
+    "imgSrc": "./images/pancakeswaffles.png"
   },
   {
     "title": "Clam Chowder",
     "description": "Clam chowder is a creamy soup made with clams, potatoes, onions, and sometimes bacon or salt pork. New England clam chowder is particularly famous, featuring a rich, creamy broth. It is often served in a bread bowl and is a comforting and hearty dish enjoyed along the northeastern coast of the United States.",
-    "imgSrc": "../images/clamchowder.png"
+    "imgSrc": "./images/clamchowder.png"
   },
   {
     "title": "Apple Pie",
     "description": "Apple pie is considered an iconic American dessert. Made with sweet, cinnamon-spiced apples baked in a flaky crust, it evokes a sense of nostalgia and is often enjoyed with a scoop of vanilla ice cream.",
-    "imgSrc": "../images/applepie.png"
+    "imgSrc": "./images/applepie.png"
   }
 ]

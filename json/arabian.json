@@ -2,56 +2,56 @@
   {
     "title": "Grains and Bread",
     "description": "Grains, particularly wheat and rice, form an essential part of Arabian cuisine. Flatbreads like pita and lavash are common and are used for dipping, wrapping, or as a side to accompany various dishes.",
-    "imgSrc": "../images/grains.png"
+    "imgSrc": "./images/grains.png"
   },
   {
     "title": "Mezze",
     "description": "Mezze refers to a selection of small appetizer-like dishes that are enjoyed before the main meal. It includes a variety of dips, salads, stuffed grape leaves (dolma), hummus, baba ganoush, falafel, and tabbouleh (a parsley and bulgur salad), among others. Mezze offers an array of flavors and textures and is meant to be shared.",
-    "imgSrc": "../images/mezze.png"
+    "imgSrc": "./images/mezze.png"
   },
   {
     "title": "Grilled Meats",
     "description": "Grilled meats are a staple in Arabian cuisine. Marinated and spiced meats such as lamb, chicken, and beef are commonly prepared on skewers (shish kebabs) or as larger cuts like shawarma (thinly sliced meat) or kofta (ground meat patties). The meats are often accompanied by aromatic rice, grilled vegetables, or flatbreads.",
-    "imgSrc": "../images/grilledmeats.png"
+    "imgSrc": "./images/grilledmeats.png"
   },
   {
     "title": "Rice and Pilaf",
     "description": "Rice is a significant component of Arabian cuisine, and it is often cooked with fragrant spices and accompanied by tender meat, chicken, or fish. Popular rice dishes include biryani, mandi, and makloubeh, each with its distinct regional variations.",
-    "imgSrc": "../images/ricepilaf.png"
+    "imgSrc": "./images/ricepilaf.png"
   },
   {
     "title": "Arabian Sweets and Desserts",
     "description": "Arabian cuisine is renowned for its rich and sweet desserts. Baklava, a pastry made with layers of filo dough and nuts soaked in sweet syrup, is a popular treat. Other sweets include kunafa (a cheese-filled pastry soaked in sugar syrup), halva, and qatayef (sweet stuffed pancakes).",
-    "imgSrc": "../images/sweetsdesserts.png"
+    "imgSrc": "./images/sweetsdesserts.png"
   },
   {
     "title": "Shawarma and Falafel",
     "description": "Shawarma is a popular street food made by roasting marinated meat, typically chicken or lamb, on a vertical spit. Thin slices of meat are shaved off and served in pita bread with a variety of sauces and toppings. Falafel, made from ground chickpeas or fava beans, is deep-fried and often served in a pita with salads and tahini sauce.",
-    "imgSrc": "../images/shawarmafalafel.png"
+    "imgSrc": "./images/shawarmafalafel.png"
   },
   {
     "title": "Middle Eastern Spices",
     "description": "Arabian cuisine is characterized by the use of various aromatic spices that lend depth and complexity to the dishes. Common spices include cumin, coriander, turmeric, cinnamon, sumac, and cardamom, which contribute to the distinct flavors of the cuisine.",
-    "imgSrc": "../images/spices.png"
+    "imgSrc": "./images/spices.png"
   },
   {
     "title": "Tabbouleh",
     "description": "Tabbouleh is a traditional salad made with finely chopped parsley, bulgur wheat, tomatoes, mint, and lemon juice. It is refreshing and serves as a healthy and flavorful side dish.",
-    "imgSrc": "../images/tabbouleh.png"
+    "imgSrc": "./images/tabbouleh.png"
   },
   {
     "title": "Mutton and Lamb",
     "description": " Mutton and lamb are widely consumed meats in Arabian cuisine. They are used in various preparations, such as stews (like harees), grilled dishes, and slow-cooked specialties like lamb ouzi, where the meat is roasted and served with spiced rice.",
-    "imgSrc": "../images/muttonlamb.png"
+    "imgSrc": "./images/muttonlamb.png"
   },
   {
     "title": "Moroccan tajin",
     "description": "Moroccan Tajine, also spelled as Tagine, is a traditional dish originating from Morocco. It gets its name from the earthenware pot in which it is cooked. A tajine typically consists of slow-cooked, aromatic ingredients that meld together to create rich and flavorful stews. Here is a small description of Moroccan Tajine:",
-    "imgSrc": "../images/moroccantajin.png"
+    "imgSrc": "./images/moroccantajin.png"
   },
   {
     "title": "Arabic Coffee and Tea",
     "description": "Arabic coffee, also known as qahwa, is a traditional beverage served in small cups. It is lightly spiced with cardamom and often accompanied by dates. Mint tea, also popular, is served hot and sweetened with sugar and fresh mint leaves.",
-    "imgSrc": "../images/coffetea.png"
+    "imgSrc": "./images/coffetea.png"
   }
 ]
