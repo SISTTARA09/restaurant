@@ -59,19 +59,21 @@ section.japanese {
               z-index: -1;
               transition: .2s linear;
             }
-            &:hover {
-              color: white;
-            }
-            &:hover::before {
-              left: 100%;
-              background-color: white;
-            }
           }
           p {
             color: $pColor;
             text-transform: capitalize;
             text-align: justify;
             padding:$m $s;
+          }
+        }
+        &:hover {
+          .info h3 {
+            color: white;
+            &::before {
+              left: 100%;
+              background-color: white;
+            }
           }
         }
       }
